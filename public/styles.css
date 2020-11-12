@@ -124,3 +124,29 @@ hr {
     font-size: 18px;
   }
 }
+
+@media (max-width: 400px) {
+  .mainTimerHeadingDiv {
+    width: 320px;
+  }
+  .mainTimerHeading {
+    margin: 0 19.5%;
+    font-size: 38px;
+  }
+
+  .timerButtons {
+    width: 320px;
+  }
+
+  .lap {
+    width: 320px;
+  }
+
+  .lapHeader {
+    font-size: 25px;
+  }
+
+  .lapPara {
+    font-size: 13px;
+  }
+}
