@@ -143,10 +143,11 @@ hr {
   }
 
   .lapHeader {
-    font-size: 25px;
+    font-size: 21px;
   }
 
   .lapPara {
-    font-size: 13px;
+    font-size: 15px;
+    padding-right:7px;
   }
 }
