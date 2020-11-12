@@ -1,0 +1,126 @@
+body {
+  background-color: #e400f0;
+  background-image: url("https://www.transparenttextures.com/patterns/diagonal-striped-brick.png");
+}
+
+.mainTimerHeadingDiv {
+  background-color: #fafcc2;
+  border: 2px solid;
+  box-shadow: 4px 9px;
+  margin: 60px auto;
+  width: 35%;
+  border-radius: 100px;
+}
+
+.mainTimerHeading {
+  margin: 0 17.5%;
+  font-size: 65px;
+  font-family: "Simonetta", cursive;
+  padding: 3px;
+}
+
+.timerButtons {
+  text-align: center;
+  width: 32%;
+  margin: 50px auto;
+}
+
+.lap {
+  background-color: #fceef5;
+  width: 32%;
+  margin: auto auto 50px auto;
+  border-radius: 10px;
+}
+
+.lapHeader {
+  font-size: 40px;
+  padding: 6px 6px 0px 6px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.lapPara {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 20px;
+  float: right;
+  padding-right: 10px;
+}
+
+hr {
+  border: 0;
+  display: block;
+  width: 100%;
+  background-color: lightgray;
+  height: 1px;
+}
+
+@media (max-width: 1540px) {
+  .mainTimerHeadingDiv {
+    width: 500px;
+  }
+
+  .mainTimerHeading {
+    margin: 0 24%;
+    font-size: 54.2px;
+    padding: 3px;
+    padding-right: 0px;
+  }
+
+  .timerButtons {
+    width: 500px;
+    margin: 50px auto;
+  }
+
+  .lap {
+    width: 500px;
+    margin: auto auto 50px auto;
+  }
+
+  .lapHeader {
+    font-size: 35px;
+    padding: 9px 6px 0px 6px;
+  }
+
+  .lapPara {
+    font-size: 21px;
+    padding-top: 20px;
+    padding-right: 8px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .mainTimerHeading {
+    font-size: 49px;
+  }
+
+  .lapPara {
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 580px) {
+  .mainTimerHeadingDiv {
+    width: 400px;
+  }
+
+  .mainTimerHeading {
+    margin: 0 19.5%;
+    font-size: 50px;
+  }
+
+  .timerButtons {
+    width: 80%;
+  }
+
+  .lap {
+    width: 80%;
+  }
+
+  .lapHeader {
+    font-size: 30px;
+  }
+
+  .lapPara {
+    font-size: 18px;
+  }
+}
